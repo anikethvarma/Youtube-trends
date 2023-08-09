@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.home-bg {
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-main-card {
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-logo-div {
+    display: flex;
+    align-items: center;
+}
+
+.youtube-logo {
+    height: 50px;
+}
+
+.logo-text {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 48px;
+    margin-left: 10px;
+}
+
+.input-div {
+    border: solid 1px #ffffff;
+    border-radius: 3px;
+}
+
+.input {
+    background-color: transparent;
+    border: 0;
+    height: 36px;
+    width: 300px;
+    max-width: 90vw;
+    padding: 5px;
+    color: #ffffff;
+    font-family: Roboto;
+}
+
+.input-button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 0;
+}
+
+.text {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media(min-width:768px) {
+    .home-main-card {
+        max-width: 60vw;
+    }
+
+    .youtube-logo {
+        height: 80px;
+    }
+
+    .logo-text {
+        font-size: 76px;
+    }
+
+    .input {
+        height: 50px;
+        width: 450px;
+        max-width: 100%;
+        font-size: 18px;
+    }
+}
